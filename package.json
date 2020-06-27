@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "docsify serve"
+    "start": "zwitterion --port 5890",
+    "build": "zwitterion --port 5890 --build-static --exclude node_modules --include lit-html,reduxular,redux/es,ethers/dist",
+    "install": "generate-attribution"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,12 @@
   },
   "homepage": "https://github.com/lastmjs/demergence#readme",
   "dependencies": {
-    "docsify-cli": "4.4.0"
+    "ethers": "5.0.2",
+    "lit-html": "1.2.1",
+    "reduxular": "0.0.6"
+  },
+  "devDependencies": {
+    "oss-attribution-generator": "1.7.1",
+    "zwitterion": "0.45.0"
   }
 }
