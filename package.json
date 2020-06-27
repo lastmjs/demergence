@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/lastmjs/demergence#readme",
   "dependencies": {
+    "bignumber.js": "9.0.0",
     "ethers": "5.0.2",
     "lit-html": "1.2.1",
     "reduxular": "0.0.6"

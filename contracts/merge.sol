@@ -1,3 +1,5 @@
+// Based on Compound's Comp token: https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/Comp.sol
+
 /*
  Copyright 2020 Compound Labs, Inc.
  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -20,19 +22,41 @@ contract Merg {
     
     mapping (address => uint96) internal balances;
     
+    mapping (address => mapping (address => uint96)) internal allowances;
+    
     event Transfer(address indexed from, address indexed to, uint256 amount);
     
+    event Approval(address indexed owner, address indexed spender, uint256 amount);
+    
     // TODO use mint and burn events, or consider it instead of transferring to or from the 0 address
-    constructor() public {
-        // balances[account] = uint96(totalSupply); // TODO figure out initial supply
-        balances[address(0xC41309B80C7d98570d7113091fa16f7e09d01a14)] = uint96(250000e18); // TODO this will be my personal address
-        balances[address(0xC41309B80C7d98570d7113091fa16f7e09d01a14)] = uint96(750000e18); // TODO this will be the demergence governance contract
+    constructor(address account) public {
+        balances[account] = uint96(totalSupply); // TODO figure out initial supply
+        // balances[address(0xC41309B80C7d98570d7113091fa16f7e09d01a14)] = uint96(250000e18); // TODO this will be my personal address
+        // balances[address(0xC41309B80C7d98570d7113091fa16f7e09d01a14)] = uint96(750000e18); // TODO this will be the demergence governance contract
         // TODO when creating the initial contract on main net, I'm thinking we can put all of the early adopter addresses in here statically
         emit Transfer(address(0), account, totalSupply);
     }
     
     function balanceOf(address account) external view returns (uint) {
         return balances[account];
+    }
+    
+    function allowance(address account, address spender) external view returns (uint) {
+        return allowances[account][spender];
+    }
+    
+    function approve(address spender, uint rawAmount) external returns (bool) {
+        uint96 amount;
+        if (rawAmount == uint(-1)) {
+            amount = uint96(-1);
+        } else {
+            amount = safe96(rawAmount, "Merg::approve: amount exceeds 96 bits");
+        }
+
+        allowances[msg.sender][spender] = amount;
+
+        emit Approval(msg.sender, spender, amount);
+        return true;
     }
 
     function transfer(address dst, uint rawAmount) external returns (bool) {

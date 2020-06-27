@@ -9,3 +9,10 @@ We will explore the topic of decentralization and its emergent properties and ef
 The world is changing. Inform yourself and change it for the better.
 
 <dem-subscribe></dem-subscribe>
+
+## Deploy details
+
+- [ ] Deploy merg.sol, putting in my personal address to receive all of the Merg tokens
+- [ ] Deploy demergence.sol, putting in the Merg address as the Merg address
+- [ ] Send 750,000 Merg tokens to the Demergence address
+- [ ] Distribute the rest of the Merg tokens manually to early adopters
