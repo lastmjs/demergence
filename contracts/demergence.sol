@@ -34,6 +34,7 @@ contract Demergence {
         string name; // TODO perhaps we shouldn't save the name here, to save on gas
         string retrievalType;
         string retrievalUri;
+        address proposer;
         bool accepted;
         bool resolved;
         uint forVotes;
@@ -59,6 +60,7 @@ contract Demergence {
             name: ideaName,
             retrievalType: retrievalType,
             retrievalUri: retrievalUri,
+            proposer: msg.sender,
             accepted: false,
             resolved: false,
             forVotes: 0,
@@ -155,6 +157,7 @@ contract Demergence {
             // now >= ideaProposal.startTime + ideaProposalPeriod
         ) {
             ideaProposal.accepted = true;
+            Merg.transfer(ideaProposal.proposer, ideaProposalMergAward);
         }
 
         ideaProposal.resolved = true;
@@ -214,4 +217,5 @@ contract Demergence {
 // TODO if I make this a contract and I import it, I wonder if I can get around the gas estimate issues
 interface MergInterface {
     function balanceOf(address account) external view returns (uint);
+    function transfer(address dst, uint rawAmount) external returns (bool);
 }

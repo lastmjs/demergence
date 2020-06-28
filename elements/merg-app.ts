@@ -133,6 +133,7 @@ class MERGApp extends HTMLElement {
                         <div>Votes against: ${new BigNumber(ideaProposal.againstVotes).dividedBy(10**18)}</div>
                         <br>
                         <div>${ideaProposal.contents}</div>
+                        <br>
                     `;
                 })}
 
@@ -154,6 +155,7 @@ class MERGApp extends HTMLElement {
                         <div>Votes against: ${new BigNumber(ideaProposal.againstVotes).dividedBy(10**18)}</div>
                         <br>
                         <div>${ideaProposal.contents}</div>
+                        <br>
                     `;
                 })}
 

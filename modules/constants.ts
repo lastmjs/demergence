@@ -1,4 +1,4 @@
-export const DEMERGENCE_CONTRACT_ADDRESS = '0x570c0B6440B9A11da0f99e7E62c946C70ED97837';
+export const DEMERGENCE_CONTRACT_ADDRESS = '0x540BD49078DbB171f5013f3e0aB7A0C83f451954';
 
 export const DEMERGENCE_CONTRACT_ABI = [
     'function proposeIdea(string memory name, string memory retrievalType, string memory retrievalUri) public',
@@ -8,6 +8,6 @@ export const DEMERGENCE_CONTRACT_ABI = [
     'function executeIdeaProposal(string memory ideaName) public'
 ];
 
-export const MERG_CONTRACT_ADDRESS = '0x6D6fc0931cAc5fc243ADc49dE94b9824072286f5';
+export const MERG_CONTRACT_ADDRESS = '0x4113546d5Df7Be065774c9CD5984341b4BdE1f30';
 
 export const ETHEREUM_NETWORK = 'ropsten';
