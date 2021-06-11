@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Demergence</title>
+        <link>https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app</link>
+        <language>en-us</language>
+        <copyright>CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0</copyright>
+        <itunes:author>Jordan Last @lastmjs</itunes:author>
+        <description>Deep discussions about DFINITY and the Internet Computer</description>
+        <itunes:owner>
+            <itunes:name>Jordan Last</itunes:name>
+            <itunes:email>jordan.michael.last@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/demergence.png"></itunes:image>
+        <itunes:category text="Technology"></itunes:category>
+        <itunes:explicit>false</itunes:explicit>
+
+        <item>
+            <title>Demergence Episode 0 - Decentralized Podcasting and Internet Computer Network Overview</title>
+            <pubDate>Thur, 3 Jun 2021 20:30:00 CDT</pubDate>
+            <description>The first episode of Demergence!</description>
+            <guid isPermaLink="false">nXNVURgkaL1mlryItREYKb3VVJd0SS88</guid>
+            <enclosure length="34071925" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-0.mp3" />
+        </item>
+
+        <item>
+            <title>Demergence Episode 1 - Privacy on the Internet Computer</title>
+            <pubDate>Fri, 11 Jun 2021 13:25:00 CDT</pubDate>
+            <description>The second episode of Demergence! We discuss privacy on the Internet Computer, diving into the differences between security of data and privacy of data, and what privacy looks like on centralized cloud providers, Ethereum and other blockchains, and the Internet Computer.</description>
+            <guid isPermaLink="false">93ItgoXnoDZMz2z6lLNUw9Egh5wMeaGs</guid>
+            <enclosure length="33805254" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-1.mp3" />
+        </item>
+    </channel>
+</rss>

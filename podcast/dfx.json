@@ -1,0 +1,8 @@
+{
+    "canisters": {
+        "assets-0": {
+            "type": "assets",
+            "source": ["canisters/assets-0"]
+        }
+    }
+}
