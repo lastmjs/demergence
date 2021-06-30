@@ -30,5 +30,13 @@
             <guid isPermaLink="false">93ItgoXnoDZMz2z6lLNUw9Egh5wMeaGs</guid>
             <enclosure length="33805254" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-1.mp3" />
         </item>
+
+        <item>
+            <title>Demergence Episode 2 - The Futures of Ethereum and the Internet Computer</title>
+            <pubDate>Wed, 30 Jun 2021 10:50:00 CDT</pubDate>
+            <description>Demergence Episode 2! I ramble through the idea of blockchains as protocols, protocol domains, and the decentralization, security, and scalability of Ethereum and the Internet Computer and what that means for their possible futures.</description>
+            <guid isPermaLink="false">IRajGjtws92BQD97PkRaDjYrDRPRyc6r</guid>
+            <enclosure length="66744436" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-2.mp3" />
+        </item>
     </channel>
 </rss>
