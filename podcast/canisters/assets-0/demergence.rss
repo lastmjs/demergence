@@ -38,5 +38,13 @@
             <guid isPermaLink="false">IRajGjtws92BQD97PkRaDjYrDRPRyc6r</guid>
             <enclosure length="66744436" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-2.mp3" />
         </item>
+
+        <item>
+            <title>Demergence Episode 3 - Building a database on the Internet Computer</title>
+            <pubDate>Sat, 31 Jul 2021 23:50:00 CDT</pubDate>
+            <description>I discuss my experience with Sudograph and building a database on the Internet Computer.</description>
+            <guid isPermaLink="false">Aj85XY5tu4gtLireEk4uOc515rJyN_uq</guid>
+            <enclosure length="20946365" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-3.mp3" />
+        </item>
     </channel>
 </rss>
