@@ -6,7 +6,7 @@
         <language>en-us</language>
         <copyright>CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0</copyright>
         <itunes:author>Jordan Last @lastmjs</itunes:author>
-        <description>Deep discussions about DFINITY and the Internet Computer</description>
+        <description>Deep discussions about the Internet Computer, DFINITY, Ethereum, blockchain, and more</description>
         <itunes:owner>
             <itunes:name>Jordan Last</itunes:name>
             <itunes:email>jordan.michael.last@gmail.com</itunes:email>
@@ -16,19 +16,26 @@
         <itunes:explicit>false</itunes:explicit>
 
         <item>
-            <title>Demergence Episode 0 - Decentralized Podcasting and Internet Computer Network Overview</title>
-            <pubDate>Thur, 3 Jun 2021 20:30:00 CDT</pubDate>
-            <description>The first episode of Demergence!</description>
-            <guid isPermaLink="false">nXNVURgkaL1mlryItREYKb3VVJd0SS88</guid>
-            <enclosure length="34071925" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-0.mp3" />
+            <title>Demergence Episode 4 - Existential Threats to the Internet Computer</title>
+            <pubDate>Mon, 30 Aug 2021 14:48:00 CDT</pubDate>
+            <description>
+                I think these could be existential threats to the Internet Computer's success.
+                Agree?
+                1. The NNS is unable to decentralize sufficiently
+                2. Subnets are unable to decentralize sufficiently
+                3. ICP is declared a security by the SEC
+                4. Ethereum adopts chain key -> fantastic sharding
+            </description>
+            <guid isPermaLink="false">bzysW2AL41stxa9yuaRmGsng0l58qFzF</guid>
+            <enclosure length="32044574" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-4.mp3" />
         </item>
 
         <item>
-            <title>Demergence Episode 1 - Privacy on the Internet Computer</title>
-            <pubDate>Fri, 11 Jun 2021 13:25:00 CDT</pubDate>
-            <description>The second episode of Demergence! We discuss privacy on the Internet Computer, diving into the differences between security of data and privacy of data, and what privacy looks like on centralized cloud providers, Ethereum and other blockchains, and the Internet Computer.</description>
-            <guid isPermaLink="false">93ItgoXnoDZMz2z6lLNUw9Egh5wMeaGs</guid>
-            <enclosure length="33805254" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-1.mp3" />
+            <title>Demergence Episode 3 - Building a database on the Internet Computer</title>
+            <pubDate>Sat, 31 Jul 2021 23:50:00 CDT</pubDate>
+            <description>I discuss my experience with Sudograph and building a database on the Internet Computer.</description>
+            <guid isPermaLink="false">Aj85XY5tu4gtLireEk4uOc515rJyN_uq</guid>
+            <enclosure length="20946365" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-3.mp3" />
         </item>
 
         <item>
@@ -40,11 +47,19 @@
         </item>
 
         <item>
-            <title>Demergence Episode 3 - Building a database on the Internet Computer</title>
-            <pubDate>Sat, 31 Jul 2021 23:50:00 CDT</pubDate>
-            <description>I discuss my experience with Sudograph and building a database on the Internet Computer.</description>
-            <guid isPermaLink="false">Aj85XY5tu4gtLireEk4uOc515rJyN_uq</guid>
-            <enclosure length="20946365" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-3.mp3" />
+            <title>Demergence Episode 1 - Privacy on the Internet Computer</title>
+            <pubDate>Fri, 11 Jun 2021 13:25:00 CDT</pubDate>
+            <description>The second episode of Demergence! We discuss privacy on the Internet Computer, diving into the differences between security of data and privacy of data, and what privacy looks like on centralized cloud providers, Ethereum and other blockchains, and the Internet Computer.</description>
+            <guid isPermaLink="false">93ItgoXnoDZMz2z6lLNUw9Egh5wMeaGs</guid>
+            <enclosure length="33805254" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-1.mp3" />
+        </item>
+
+        <item>
+            <title>Demergence Episode 0 - Decentralized Podcasting and Internet Computer Network Overview</title>
+            <pubDate>Thur, 3 Jun 2021 20:30:00 CDT</pubDate>
+            <description>The first episode of Demergence!</description>
+            <guid isPermaLink="false">nXNVURgkaL1mlryItREYKb3VVJd0SS88</guid>
+            <enclosure length="34071925" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-0.mp3" />
         </item>
     </channel>
 </rss>
