@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Demergence</title>
-        <link>https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app</link>
+        <link>https://ic3o3-qiaaa-aaaae-qaaia-cai.ic0.app</link>
         <language>en-us</language>
         <copyright>CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0</copyright>
         <itunes:author>Jordan Last @lastmjs</itunes:author>
@@ -16,9 +16,46 @@
         <itunes:explicit>false</itunes:explicit>
 
         <item>
+            <title>Demergence Episode 6 - Log Voting on the IC</title>
+            <pubDate>Tue, 25 Jan 2022 05:45:00 CDT</pubDate>
+            <description>
+                ***Make sure to download the episode. There is currently a known bug with IC asset canisters causing streaming issues***
+
+                Jordan Last, Ryan Horne, and the community discuss an idea we are calling logarithmic voting for the Internet Computer.
+
+                Proposal to include cycle_dao and ICDevs as default follow-target neurons to the NNS: https://forum.dfinity.org/t/proposal-to-include-cycle-dao-icdevs-as-default-follow-target-neurons-to-the-nns/9363
+
+                Opening song cut from Something Elated: https://freemusicarchive.org/music/Broke_For_Free/Something_EP/Broke_For_Free_-_Something_EP_-_05_Something_Elated
+                By Broke For Free: http://brokeforfree.com
+                Licensed under an Attribution 3.0 United States License: https://creativecommons.org/licenses/by/3.0/us
+            </description>
+            <guid isPermaLink="false">dFgdHgIH13nMab2LrjeYj5c9hoztzZ_g</guid>
+            <enclosure length="45103084" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-6.mp3" />
+        </item>
+
+        <item>
+            <title>Demergence Episode 5 - Deterministic vs Optimistic Decentralization</title>
+            <pubDate>Mon, 13 Sep 2021 12:05:00 CDT</pubDate>
+            <description>
+                ***Make sure to download the episode. There is currently a known bug with IC asset canisters causing streaming issues***
+
+                I discuss the idea of deterministic decentralization as implemented by the Internet Computer and Chainlink.
+                I contrast that with what I call optimistic decentralization as implemented by Bitcoin, Ethereum, and most other blockchains.
+
+                Opening song cut from Something Elated: https://freemusicarchive.org/music/Broke_For_Free/Something_EP/Broke_For_Free_-_Something_EP_-_05_Something_Elated
+                By Broke For Free: http://brokeforfree.com
+                Licensed under an Attribution 3.0 United States License: https://creativecommons.org/licenses/by/3.0/us
+            </description>
+            <guid isPermaLink="false">n5ZBgme9cFhT3zol0VE5VbzNJ8swduVb</guid>
+            <enclosure length="34343717" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-5.mp3" />
+        </item>
+
+        <item>
             <title>Demergence Episode 4 - Existential Threats to the Internet Computer</title>
             <pubDate>Mon, 30 Aug 2021 14:48:00 CDT</pubDate>
             <description>
+                ***Make sure to download the episode. There is currently a known bug with IC asset canisters causing streaming issues***
+
                 I think these could be existential threats to the Internet Computer's success.
                 Agree?
                 1. The NNS is unable to decentralize sufficiently
@@ -33,7 +70,11 @@
         <item>
             <title>Demergence Episode 3 - Building a database on the Internet Computer</title>
             <pubDate>Sat, 31 Jul 2021 23:50:00 CDT</pubDate>
-            <description>I discuss my experience with Sudograph and building a database on the Internet Computer.</description>
+            <description>
+                ***Make sure to download the episode. There is currently a known bug with IC asset canisters causing streaming issues***
+
+                I discuss my experience with Sudograph and building a database on the Internet Computer.
+            </description>
             <guid isPermaLink="false">Aj85XY5tu4gtLireEk4uOc515rJyN_uq</guid>
             <enclosure length="20946365" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-3.mp3" />
         </item>
@@ -41,7 +82,11 @@
         <item>
             <title>Demergence Episode 2 - The Futures of Ethereum and the Internet Computer</title>
             <pubDate>Wed, 30 Jun 2021 10:50:00 CDT</pubDate>
-            <description>Demergence Episode 2! I ramble through the idea of blockchains as protocols, protocol domains, and the decentralization, security, and scalability of Ethereum and the Internet Computer and what that means for their possible futures.</description>
+            <description>
+                ***Make sure to download the episode. There is currently a known bug with IC asset canisters causing streaming issues***
+
+                Demergence Episode 2! I ramble through the idea of blockchains as protocols, protocol domains, and the decentralization, security, and scalability of Ethereum and the Internet Computer and what that means for their possible futures.
+            </description>
             <guid isPermaLink="false">IRajGjtws92BQD97PkRaDjYrDRPRyc6r</guid>
             <enclosure length="66744436" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-2.mp3" />
         </item>
@@ -49,7 +94,11 @@
         <item>
             <title>Demergence Episode 1 - Privacy on the Internet Computer</title>
             <pubDate>Fri, 11 Jun 2021 13:25:00 CDT</pubDate>
-            <description>The second episode of Demergence! We discuss privacy on the Internet Computer, diving into the differences between security of data and privacy of data, and what privacy looks like on centralized cloud providers, Ethereum and other blockchains, and the Internet Computer.</description>
+            <description>
+                ***Make sure to download the episode. There is currently a known bug with IC asset canisters causing streaming issues***
+
+                The second episode of Demergence! We discuss privacy on the Internet Computer, diving into the differences between security of data and privacy of data, and what privacy looks like on centralized cloud providers, Ethereum and other blockchains, and the Internet Computer.
+            </description>
             <guid isPermaLink="false">93ItgoXnoDZMz2z6lLNUw9Egh5wMeaGs</guid>
             <enclosure length="33805254" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-1.mp3" />
         </item>
@@ -57,7 +106,11 @@
         <item>
             <title>Demergence Episode 0 - Decentralized Podcasting and Internet Computer Network Overview</title>
             <pubDate>Thur, 3 Jun 2021 20:30:00 CDT</pubDate>
-            <description>The first episode of Demergence!</description>
+            <description>
+                ***Make sure to download the episode. There is currently a known bug with IC asset canisters causing streaming issues***
+
+                The first episode of Demergence!
+            </description>
             <guid isPermaLink="false">nXNVURgkaL1mlryItREYKb3VVJd0SS88</guid>
             <enclosure length="34071925" type="audio/mpeg" url="https://ic3o3-qiaaa-aaaae-qaaia-cai.raw.ic0.app/episodes/demergence-0.mp3" />
         </item>

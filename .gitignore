@@ -1,4 +1,5 @@
 /node_modules
 /dist
 /podcast/**/episodes
+/podcast/miscellaneous
 .dfx
