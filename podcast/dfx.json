@@ -1,8 +1,9 @@
 {
     "canisters": {
         "assets-0": {
-            "type": "assets",
-            "source": ["canisters/assets-0"]
+            "type": "custom",
+            "candid": "../../certified-assets/assets.did",
+            "wasm": "../../certified-assets/target/wasm32-unknown-unknown/release/certified_assets-opt.wasm"
         }
     }
 }
