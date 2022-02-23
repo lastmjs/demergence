@@ -1,5 +1,6 @@
 /node_modules
 /dist
-/podcast/**/episodes
-/podcast/miscellaneous
 .dfx
+target
+/podcast/public/assets-0/episodes
+/podcast/miscellaneous

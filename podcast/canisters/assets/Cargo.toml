@@ -1,0 +1,15 @@
+[package]
+name = "assets"
+version = "0.1.0"
+authors = ["DFINITY Stiftung <sdk@dfinity.org>"]
+edition = "2018"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+ic-certified-assets = { path = "../../../../cdk-rs/src/ic-certified-assets" }
+# ic-certified-assets = "0.1.0"
+ic-cdk = "0.4.0"
+ic-cdk-macros = "0.4.0"
